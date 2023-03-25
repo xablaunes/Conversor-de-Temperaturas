@@ -24,7 +24,7 @@ public class conversortemperatura {
 		
 		try {
 
-				Thread.sleep(3000); 
+			  Thread.sleep(3000); 
 			} catch (InterruptedException e) {
 
 			e.printStackTrace();
@@ -33,9 +33,9 @@ public class conversortemperatura {
 		
 		while (true) {
 		
-		System.out.println();
-		System.out.print("\nInforme a primeira temperatura (Digite 1 para kelvin, 2 para fahrenheit e 3 para celsius): ");
-		temperatura1 = scan.nextInt();
+			System.out.println();
+			System.out.print("\nInforme a primeira temperatura (Digite 1 para kelvin, 2 para fahrenheit e 3 para celsius): ");
+			temperatura1 = scan.nextInt();
 
 		System.out.print("Digite a segunda temperatura (Digite 1 para kelvin, 2 para fahrenheit e 3 para celsius): ");
 		temperatura2 = scan.nextInt();
@@ -86,11 +86,11 @@ public class conversortemperatura {
 		
 		else if (temperatura1 != 1 || temperatura1 != 2 || temperatura1 != 3 || temperatura2 != 1 || temperatura2 != 2 || temperatura2 != 3) {
 		
-		 System.out.print("Número de temperatura Inválido! Digite apenas 1 ou 2 ou 3.");
+			System.out.print("Número de temperatura Inválido! Digite apenas 1 ou 2 ou 3.");
 			
 		}
 	}
-  }
+    }
 }
 
 	
